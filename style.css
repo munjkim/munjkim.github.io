@@ -23,7 +23,7 @@ p {
 }
 
 #cv {
-	width: 90%;
+	width: 95%;
 	max-width: 800px;
 	background: #f3f3f3;
 	margin: 30px auto;
@@ -297,7 +297,7 @@ section:last-child {
 }
 
 
-.instaFade {
+/* .instaFade {
 	-webkit-animation-name: reset, fade-in;
 	-webkit-animation-duration: 1.5s;
 	-webkit-animation-timing-function: ease-in;
@@ -309,7 +309,7 @@ section:last-child {
 	animation-name: reset, fade-in;
 	animation-duration: 1.5s;
 	animation-timing-function: ease-in;
-}
+} */
 /*
 .quickFade {
 	-webkit-animation-name: reset, fade-in;
