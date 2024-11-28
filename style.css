@@ -114,7 +114,7 @@ section:first-child {
 }
 
 section:last-child {
-	padding: 20px 0 10px;
+	padding: 20px 0 20px;
 }
 
 .sectionTitle {
@@ -133,9 +133,10 @@ section:last-child {
     color: #2BAE66;
 }
 
-.sectionContent h2 {
+.sectionContent h2{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1.5em;
+	font-style: bold;
     /* margin-bottom: -2px; */
 }
 
@@ -143,6 +144,18 @@ section:last-child {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1.2em;
     /* margin-bottom: -2px; */
+}
+.sectionContent h3 a, a[href^=tel]{
+	color:#000000;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+    text-decoration: none; /* Removes the underline */
+}
+.sectionContent h3 a:hover {
+	color: #2BAE66;
 }
 
 
@@ -322,7 +335,7 @@ section:last-child {
     align-items: flex-start; /* Aligns items to the top */
 }
 
-.flexRow h2 {
+.flexRow h2, h3 {
     margin: 0; /* Removes unnecessary margin */
 }
 
